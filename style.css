@@ -1,0 +1,81 @@
+/* Generali */
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.47);
+  border-radius: 10px;
+}
+
+.level {
+  width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  color: white;
+}
+
+/* Logo + intestazione */
+
+img {
+  width: 200px;
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 3px;
+  color: #00dd00;
+}
+
+/* Navigazione */
+
+ul {
+  text-align: center;
+  background-color: #00dd00;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+li {
+  display: inline;
+}
+
+/* Lista monopattini */
+
+.mono > h2 {
+  margin-top: 20px;
+  display: inline;
+  }
+
+.progressbar {
+  border-radius: 5px;
+  text-align: center;
+}
+
+.progressbar1  {
+  width: 50%;;
+  background-color: orange;
+}
+
+.progressbar2  {
+  width: 70%;
+  background-color: green;
+}
+
+.progressbar3  {
+  width: 20%;
+  background-color: red;
+}
